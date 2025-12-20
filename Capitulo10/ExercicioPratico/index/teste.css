@@ -1,0 +1,18 @@
+.container {
+    width: 500vw;
+    height: auto;
+
+    display: flex;
+    padding: 115px;
+}
+
+.ico {
+    width: 100px;
+    padding: 20px;
+
+    border-radius: 10px;
+    background-color: rgba(137, 43, 226, 0.658);
+}
+img {
+    width: 100px;
+}
