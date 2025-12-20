@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Picture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse arquivo em vários dispositivos diferentes ou simplesmente redimensionar a janela do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="../Aula02/imagensPMG/fotoP.png">
+        <source media="(max-width: 1050px)" srcset="../Aula02/imagensPMG/fotoM.png">
+        <img src="../Aula02/imagensPMG/fotoG.png" alt="imagem grande">
+    </picture>
+</body>
+</html>
